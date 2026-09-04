@@ -196,27 +196,24 @@ Fixed random seeds are used where appropriate to support reproducibility.
 ## Repository Structure
 
 ```text
-Missing-Not-at-Random-Simulation-Study/
+Missing-Not-at-Random-Theory_and_Simulation/
 |
 |-- README.md
 |
 |-- Scenario-1/
 |   |-- README.md
-|   |-- simulation/
-|   `-- results/
+|   `-- scenario1_cc_ipw_simulation.R
 |
 |-- Scenario-2/
 |   |-- README.md
-|   |-- simulation/
-|   `-- results/
+|   `-- scenario2_cc_ipw_simulation.R
 |
 `-- Scenario-3/
     |-- README.md
-    |-- simulation/
-    `-- results/
+    `-- scenario3_cc_ipw_simulation.R
 ```
 
-Each scenario contains documentation of the statistical setup, the corresponding R simulation code, and selected numerical results.
+Each scenario contains a separate README describing the statistical setup and the corresponding R simulation code.
 
 ---
 
