@@ -152,18 +152,6 @@ The simulation is implemented in R and includes:
 
 Fixed random seeds are used where appropriate to support reproducibility.
 
-## Directory Contents
-
-```text
-Scenario-1/
-|
-|-- README.md
-|-- simulation/
-|   |-- complete_case.R
-|   `-- ipw.R
-|
-`-- results/
-```
 
 The `simulation/` directory contains the R code for the Complete Case and
 IPW analyses.
